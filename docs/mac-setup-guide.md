@@ -2,6 +2,23 @@
 
 A straightforward guide to get PrivateGPT running on your Mac with developer tools in 20-25 minutes.
 
+## 📑 Table of Contents
+
+- [Prerequisites](#-prerequisites)
+- [Complete Setup Guide](#-complete-setup-guide)
+  - [Steps 1-2: Cursor IDE Setup](#step-1-install-cursor-ide-2-minutes)
+  - [Steps 3-7: Install Dependencies](#step-3-check-prerequisites-in-cursor-terminal)
+  - [Steps 8-9: Fork and Clone](#step-8-fork-the-repository-30-seconds)
+  - [Steps 10-14: PrivateGPT Setup](#step-10-install-privategpt-dependencies-3-minutes)
+  - [Step 15: Claude Code](#step-15-set-up-claude-code-1-minute)
+- [Troubleshooting](#-troubleshooting)
+- [Quick Commands Reference](#-quick-commands-reference)
+- [Saving Your Changes with Git](#-saving-your-changes-with-git)
+- [Optional Enhancements](#-optional-enhancements)
+- [Understanding the Codebase with Claude Code](#-understanding-the-codebase-with-claude-code)
+- [Next Steps](#-next-steps)
+- [Need Help?](#-need-help)
+
 ## 📋 Prerequisites
 
 ### System Requirements
