@@ -12,6 +12,8 @@ This document provides three levels of detail about PrivateGPT: Low (Executive S
 
 **Value Proposition:** Get ChatGPT-like capabilities for your documents without sending data to external services. Deploy on-premise or in your private cloud with complete control.
 
+**Technology:** Built with Python, FastAPI, and LlamaIndex. Runs local AI models (like Llama 3) using Ollama, with document embeddings stored in Qdrant vector database.
+
 **Quick Start:**
 1. Install with Poetry: `poetry install --extras "ui llms-ollama embeddings-ollama vector-stores-qdrant"`
 2. Pull a model: `ollama pull llama3`
@@ -46,12 +48,25 @@ This document provides three levels of detail about PrivateGPT: Low (Executive S
 
 ### Technology Stack
 
+#### Default Stack (Out of the Box)
 - **Language:** Python 3.11
-- **Framework:** FastAPI + Gradio
-- **RAG:** LlamaIndex
-- **LLMs:** Ollama, LlamaCPP, OpenAI, Azure OpenAI, Gemini
-- **Vector DBs:** Qdrant, Chroma, Milvus, Postgres
-- **Deployment:** Docker, Kubernetes compatible
+- **API Framework:** FastAPI
+- **UI Framework:** Gradio
+- **RAG Engine:** LlamaIndex
+- **LLM Provider:** Ollama (with Llama 3)
+- **Embedding Model:** Nomic Embed Text (via Ollama)
+- **Vector Database:** Qdrant
+- **Document Store:** Simple JSON storage
+
+#### Supported Alternatives
+
+| Component | Default | Alternatives |
+|-----------|---------|-------------|
+| **LLM Provider** | Ollama | LlamaCPP, OpenAI, Azure OpenAI, Google Gemini, AWS Sagemaker |
+| **Embedding Provider** | Ollama | HuggingFace, OpenAI, Azure OpenAI, Google Gemini, MistralAI |
+| **Vector Database** | Qdrant | Chroma, Milvus, PostgreSQL + pgvector, ClickHouse |
+| **Document Store** | Simple (JSON) | PostgreSQL |
+| **Deployment** | Local/Bare Metal | Docker, Kubernetes, Cloud VMs |
 
 ### Key Features
 
