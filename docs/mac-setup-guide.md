@@ -1,6 +1,6 @@
 # 🍎 PrivateGPT Mac Setup Guide
 
-A straightforward guide to get PrivateGPT running on your Mac in under 10 minutes.
+A straightforward guide to get PrivateGPT running on your Mac in 15-20 minutes.
 
 ## 📋 Prerequisites
 
@@ -27,15 +27,15 @@ poetry --version
 ollama --version
 ```
 
-## 🚀 Step-by-Step Installation
+## 🚀 Complete Setup Guide
 
-### Step 1: Install Homebrew (if not installed)
+### Step 1: Install Homebrew (2 minutes) - Skip if already installed
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-### Step 2: Install Python 3.11
+### Step 2: Install Python 3.11 (2 minutes)
 
 ```bash
 # Install Python 3.11
@@ -45,7 +45,7 @@ brew install python@3.11
 python3.11 --version
 ```
 
-### Step 3: Install Poetry
+### Step 3: Install Poetry (1 minute)
 
 ```bash
 # Install Poetry
@@ -59,9 +59,8 @@ source ~/.zshrc
 poetry --version
 ```
 
-### Step 4: Install Ollama
+### Step 4: Install Ollama (1 minute)
 
-**Option 1: Install via Homebrew (Recommended)**
 ```bash
 # Install Ollama using Homebrew
 brew install ollama
@@ -73,15 +72,7 @@ brew services start ollama
 ollama --version
 ```
 
-**Option 2: Download the Mac App**
-1. Go to https://ollama.com/download
-2. Click "Download for macOS"
-3. Open the downloaded file and drag Ollama to Applications
-4. Launch Ollama from Applications (it will run in the menu bar)
-
-## 💨 Quick Start (5 Minutes)
-
-### 1. Clone the Repository
+### Step 5: Clone PrivateGPT Repository (1 minute)
 
 ```bash
 # Clone PrivateGPT
@@ -89,14 +80,14 @@ git clone https://github.com/zylon-ai/private-gpt.git
 cd private-gpt
 ```
 
-### 2. Install Dependencies
+### Step 6: Install PrivateGPT Dependencies (3 minutes)
 
 ```bash
 # Install with Ollama support and UI
 poetry install --extras "ui llms-ollama embeddings-ollama vector-stores-qdrant"
 ```
 
-### 3. Download Llama 3 Model
+### Step 7: Download Llama 3 Model (5-10 minutes)
 
 ```bash
 # Pull the Llama 3 model (4.7GB download)
@@ -106,25 +97,31 @@ ollama pull llama3
 ollama list
 ```
 
-### 4. Configure for Llama 3
+### Step 8: Configure for Llama 3 (30 seconds)
 
 ```bash
 # Update the Ollama settings to use llama3
 sed -i '' 's/llm_model: llama3.1/llm_model: llama3/' settings-ollama.yaml
 ```
 
-### 5. Run PrivateGPT
+### Step 9: Start PrivateGPT (1 minute)
 
 ```bash
 # Start the application
 PGPT_PROFILES=ollama make run
 ```
 
-### 6. Access the UI
+### Step 10: Access the UI
 
 Open your browser and go to: **http://localhost:8001**
 
 🎉 **That's it!** You can now upload documents and chat with them privately.
+
+### ⏱️ Total Time: 15-20 minutes
+- Prerequisites check: 1 minute
+- Software installation (Steps 1-4): 6 minutes
+- PrivateGPT setup (Steps 5-9): 10-15 minutes
+- Most time is spent downloading the 4.7GB Llama 3 model
 
 ## 🔧 Troubleshooting
 
