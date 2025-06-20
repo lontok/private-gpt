@@ -1,0 +1,3471 @@
+06:43:41.596 [INFO    ] private_gpt.settings.settings_loader - Starting application with profiles=['default', 'ollama']
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+06:43:43.240 [INFO    ] private_gpt.components.llm.llm_component - Initializing the LLM in mode=ollama
+06:43:43.262 [INFO    ]                     httpx - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+06:43:43.263 [INFO    ]                     httpx - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+06:43:43.645 [INFO    ] private_gpt.components.embedding.embedding_component - Initializing the embedding model in mode=ollama
+06:43:43.663 [INFO    ]                     httpx - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+06:43:43.663 [INFO    ]                     httpx - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+06:43:43.664 [INFO    ] llama_index.core.indices.loading - Loading all indices.
+06:43:44.140 [INFO    ]         private_gpt.ui.ui - Mounting the gradio UI, at path=/
+INFO:     Started server process [44984]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+INFO:     127.0.0.1:53390 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53390 - "GET /assets/index-D5ROCp7B.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53393 - "GET /assets/index-DuXXhepF.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53390 - "GET /assets/svelte/svelte.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53390 - "GET /assets/Index-D21IHG0c.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53393 - "GET /assets/Index-BEyjvDG_.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53393 - "GET /assets/index-DuXXhepF.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53390 - "GET /theme.css?v=100fecf9b6f943e2a9d4059c81be191f3247795d7babff175b481229879e5c02 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53393 - "GET /heartbeat/ygo8mj1jx9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53400 - "GET /assets/Button-CTZL5Nos.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53402 - "GET /assets/Blocks-yLdzXwzS.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53403 - "GET /assets/Blocks-Dw_9NR1K.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53404 - "GET /assets/Button-uOcat6Z0.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53403 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53404 - "GET /assets/Index-QFLfeHqR.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53400 - "GET /assets/Index-C43SQM_O.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53403 - "GET /assets/Index-CwNLzWTz.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53402 - "GET /assets/Code-DGNrTu_I.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53390 - "GET /assets/BlockLabel-BXXlQleC.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53403 - "GET /assets/Index-BicZ6NTU.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53402 - "GET /assets/Index-BSqct-uf.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53404 - "GET /assets/Index-CptIZeFZ.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53400 - "GET /assets/Example-D7K5RtQ2.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53390 - "GET /assets/Textbox-D8IAzrZj.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53403 - "GET /assets/Example-Cj3ii62O.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53402 - "GET /assets/Index-DYDmCduo.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53390 - "GET /assets/Index-Xv8ZQETB.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53400 - "GET /assets/ModifyUpload-C849vsWf.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53404 - "GET /assets/Example-BOThR97Y.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53390 - "GET /assets/Index-BhDD_Y03.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53403 - "GET /assets/Example-CX34aPix.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53402 - "GET /assets/Index-B0JJ6p9c.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53404 - "GET /assets/Index-D9RVvV4H.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53400 - "GET /assets/Image-B8dFOee4.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53390 - "GET /assets/ImagePreview-DlqNSi_R.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53400 - "GET /assets/Index-DjlyOtKO.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53404 - "GET /assets/Index-C-7D3Y3j.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53403 - "GET /assets/Index-C5NYahSl.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53402 - "GET /assets/Index-3Ud1cpPD.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53404 - "GET /assets/BlockTitle-COFLSASJ.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53402 - "GET /assets/Example-BoMLuz1A.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53390 - "GET /assets/Index-q5DoCKkE.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53403 - "GET /assets/Info-CMIMfBX8.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53400 - "GET /assets/Textbox-CF9-08gf.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53402 - "GET /assets/Check-CZUQOzJl.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53390 - "GET /assets/Copy-B6RcHnoK.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53404 - "GET /assets/Index-gv3yLxlE.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53402 - "GET /assets/Index-qZ00DhtO.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53403 - "GET /assets/index-CnqicUFC.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53400 - "GET /assets/Example-C7XUkkid.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53390 - "GET /assets/Upload-46YxStuW.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53400 - "GET /assets/Index.svelte_svelte_type_style_lang-D199jKmZ.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53402 - "GET /assets/dsv-DB8NKgIY.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53403 - "GET /assets/prism-python-Bw3EYPE-.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53404 - "GET /assets/Example.svelte_svelte_type_style_lang-qahm4PWk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53390 - "GET /assets/Example-BT2jlY4j.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53403 - "GET /assets/Index-DDqzdfNS.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53402 - "GET /assets/Index-DDCF2BFd.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53400 - "GET /assets/Index-DwSO5GE1.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53390 - "GET /assets/ShareButton-OlciWAJu.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53402 - "GET /assets/Image-DG8jX6JY.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53403 - "GET /assets/DownloadLink-BgAM71ly.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53404 - "GET /assets/file-url-BIHPd7vS.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53400 - "GET /assets/Index-CS2xVf8J.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53403 - "GET /assets/Index-BpBoLkq9.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53402 - "GET /assets/Index-uRgjJb4U.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53403 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53403 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53403 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53403 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53403 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53425 - "HEAD / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53437 - "POST /upload HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53437 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53437 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+06:44:07.191 [INFO    ] private_gpt.server.ingest.ingest_service - Ingesting file_names=['Seal-Kala-CV-Jan-2024.pdf']
+Parsing nodes:   0%|          | 0/1 [00:00<?, ?it/s]Parsing nodes: 100%|██████████| 1/1 [00:00<00:00, 778.16it/s]
+Generating embeddings:   0%|          | 0/17 [00:00<?, ?it/s]06:44:08.326 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.339 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.350 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.361 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.371 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.381 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.390 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.400 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.410 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.420 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+Generating embeddings:  59%|█████▉    | 10/17 [00:00<00:00, 15.45it/s]06:44:08.430 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.444 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.472 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.482 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.493 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.502 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.511 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+Generating embeddings: 100%|██████████| 17/17 [00:00<00:00, 23.01it/s]
+Generating embeddings: 0it [00:00, ?it/s]Generating embeddings: 0it [00:00, ?it/s]
+06:44:08.514 [WARNING ]                      root - Payload indexes have no effect in the local Qdrant. Please use server Qdrant if you need payload indexes.
+Parsing nodes:   0%|          | 0/1 [00:00<?, ?it/s]Parsing nodes: 100%|██████████| 1/1 [00:00<00:00, 1242.02it/s]
+Generating embeddings:   0%|          | 0/36 [00:00<?, ?it/s]06:44:08.537 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.546 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.558 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.567 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.577 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.588 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.598 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.607 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.617 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.626 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.635 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.643 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.653 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.677 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.686 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.699 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.708 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.716 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.726 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.735 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+Generating embeddings:  56%|█████▌    | 20/36 [00:00<00:00, 96.21it/s]06:44:08.744 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.752 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.762 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.771 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.780 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.788 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.798 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.806 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.816 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.824 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.833 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.844 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.852 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.861 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.870 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.879 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+Generating embeddings: 100%|██████████| 36/36 [00:00<00:00, 103.69it/s]Generating embeddings: 100%|██████████| 36/36 [00:00<00:00, 102.33it/s]
+Generating embeddings: 0it [00:00, ?it/s]Generating embeddings: 0it [00:00, ?it/s]
+Parsing nodes:   0%|          | 0/1 [00:00<?, ?it/s]Parsing nodes: 100%|██████████| 1/1 [00:00<00:00, 912.40it/s]
+Generating embeddings:   0%|          | 0/55 [00:00<?, ?it/s]06:44:08.912 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.920 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.928 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.938 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.946 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.954 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.962 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.971 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.980 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.989 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:08.997 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.005 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.013 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.023 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.031 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.040 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.048 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.056 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.065 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.074 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+Generating embeddings:  36%|███▋      | 20/55 [00:00<00:00, 116.57it/s]06:44:09.086 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.124 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.136 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.146 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.156 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.164 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.172 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.180 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.189 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.197 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+Generating embeddings:  58%|█████▊    | 32/55 [00:00<00:00, 106.62it/s]06:44:09.206 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.214 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.223 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.231 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.239 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.248 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.256 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.265 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.274 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.282 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.290 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.299 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.308 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.316 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.324 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.332 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.340 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.350 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.358 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.367 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+Generating embeddings:  91%|█████████ | 50/55 [00:00<00:00, 106.55it/s]06:44:09.376 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.385 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.393 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.402 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.411 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+Generating embeddings: 100%|██████████| 55/55 [00:00<00:00, 107.98it/s]
+Generating embeddings: 0it [00:00, ?it/s]Generating embeddings: 0it [00:00, ?it/s]
+Parsing nodes:   0%|          | 0/1 [00:00<?, ?it/s]Parsing nodes: 100%|██████████| 1/1 [00:00<00:00, 1675.04it/s]
+Generating embeddings:   0%|          | 0/31 [00:00<?, ?it/s]06:44:09.453 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.463 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.471 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.479 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.489 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.497 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.507 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.516 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.526 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.534 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.545 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.553 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.564 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.572 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.582 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.590 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.599 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.609 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.618 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.627 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+Generating embeddings:  65%|██████▍   | 20/31 [00:00<00:00, 109.67it/s]06:44:09.638 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.646 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.656 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.666 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.675 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.683 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.693 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.701 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.710 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.718 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.727 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+Generating embeddings: 100%|██████████| 31/31 [00:00<00:00, 110.01it/s]
+Generating embeddings: 0it [00:00, ?it/s]Generating embeddings: 0it [00:00, ?it/s]
+Parsing nodes:   0%|          | 0/1 [00:00<?, ?it/s]Parsing nodes: 100%|██████████| 1/1 [00:00<00:00, 1825.20it/s]
+Generating embeddings:   0%|          | 0/30 [00:00<?, ?it/s]06:44:09.766 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.776 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.784 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.793 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.802 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.812 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.819 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.828 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.837 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.846 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.854 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.863 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.871 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.880 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.888 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.897 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.905 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.914 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.922 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.932 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+Generating embeddings:  67%|██████▋   | 20/30 [00:00<00:00, 109.89it/s]06:44:09.940 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.949 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.958 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.985 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:09.994 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.003 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.012 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.035 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.044 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.052 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+Generating embeddings: 100%|██████████| 30/30 [00:00<00:00, 99.23it/s] 
+Generating embeddings: 0it [00:00, ?it/s]Generating embeddings: 0it [00:00, ?it/s]
+Parsing nodes:   0%|          | 0/1 [00:00<?, ?it/s]Parsing nodes: 100%|██████████| 1/1 [00:00<00:00, 1869.95it/s]
+Generating embeddings:   0%|          | 0/30 [00:00<?, ?it/s]06:44:10.080 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.089 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.098 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.108 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.116 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.125 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.134 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.144 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.153 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.162 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.171 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.180 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.194 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.204 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.214 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.223 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.233 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.242 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.252 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.261 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+Generating embeddings:  67%|██████▋   | 20/30 [00:00<00:00, 105.70it/s]06:44:10.270 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.279 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.287 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.295 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.305 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.313 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.321 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.330 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.339 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.348 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+Generating embeddings: 100%|██████████| 30/30 [00:00<00:00, 108.65it/s]
+Generating embeddings: 0it [00:00, ?it/s]Generating embeddings: 0it [00:00, ?it/s]
+Parsing nodes:   0%|          | 0/1 [00:00<?, ?it/s]Parsing nodes: 100%|██████████| 1/1 [00:00<00:00, 2071.26it/s]
+Generating embeddings:   0%|          | 0/28 [00:00<?, ?it/s]06:44:10.375 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.384 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.392 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.401 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.410 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.419 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.427 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.436 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.444 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.454 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.463 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.472 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.481 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.490 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.499 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.519 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.530 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.539 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.549 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.558 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+Generating embeddings:  71%|███████▏  | 20/28 [00:00<00:00, 104.32it/s]06:44:10.567 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.579 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.588 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.596 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.604 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.613 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.621 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.630 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+Generating embeddings: 100%|██████████| 28/28 [00:00<00:00, 106.31it/s]
+Generating embeddings: 0it [00:00, ?it/s]Generating embeddings: 0it [00:00, ?it/s]
+Parsing nodes:   0%|          | 0/1 [00:00<?, ?it/s]Parsing nodes: 100%|██████████| 1/1 [00:00<00:00, 2770.35it/s]
+Generating embeddings:   0%|          | 0/22 [00:00<?, ?it/s]06:44:10.656 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.665 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.674 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.683 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.692 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.701 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.709 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.718 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.726 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.735 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.744 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.752 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.761 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.769 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.777 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.785 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.793 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.802 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.810 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.819 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+Generating embeddings:  91%|█████████ | 20/22 [00:00<00:00, 116.68it/s]06:44:10.827 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:10.836 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+Generating embeddings: 100%|██████████| 22/22 [00:00<00:00, 116.73it/s]
+Generating embeddings: 0it [00:00, ?it/s]Generating embeddings: 0it [00:00, ?it/s]
+06:44:10.855 [INFO    ] private_gpt.server.ingest.ingest_service - Finished ingestion file_name=['Seal-Kala-CV-Jan-2024.pdf']
+INFO:     127.0.0.1:53437 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53437 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53437 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53437 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53437 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53437 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53437 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53437 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53455 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53455 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53457 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53457 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53457 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+06:44:28.262 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:31.297 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:53455 - "GET /file%3D/private/var/folders/ln/dglppgj571x0sq2bpzhwn8l00000gn/T/gradio/b071f118965daa0645e9c89e012175fbd95dca8d24774102a3dc056d8fcc312f/avatar-bot.ico HTTP/1.1" 200 OK
+** Messages: **
+system: Use the context information below to assist the user.
+--------------------
+1 KALA CHAND SEAL  
+ 
+ 
+OFFICE ADDRESS        HOME ADDRESS  
+Hilton 223         6207 West 78th Street  
+Loyola Marymount University      Los Angeles, CA: 90045  
+One LMU Drive        Ph: (310) 645 0214  
+Los Angeles, CA: 90045.  
+ Ph : (310) 338 2742  
+    E-mail: k ala.seal@lmu.edu  
+ 
+I. EDUCATION  
+ 
+ Ph.D.    The University of Texas at Dallas  
+   August, 1990.  
+    Major: Management Science and Management Information Systems (MIS)  
+ M.S.    The University of Texas at Dallas  
+ August, 1989.
+
+5 19.  “A Workshop on Effective Teaching Techniques for Business Courses”, (with D. Abraham) 
+workshop offered in The 5th International Conference of Association of Indian Management 
+Scholars,  Hyderabad, India, December, 27 -30, 2007.  
+ 20.  “Drivers of Mobile Business Models: Lessons from Four Asian Countries”, presented at The 5th 
+International Conference of Association of Indian Management Scholars,  Hyderabad, India, 
+December, 27 -30, 2007.
+--------------------
+You can only answer questions about the provided context. If you know the answer but it is not based in the provided context, don't provide the answer, just state the answer is not in the context provided.
+user: who is kala seal?
+**************************************************
+** Response: **
+assistant: According to the provided context, Kala Chand Seal is an individual with a Ph.D. from The University of Texas at Dallas and works at Loyola Marymount University (LMU). He can be contacted through his office address or home address listed in the context.
+**************************************************
+
+
+INFO:     127.0.0.1:53457 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53468 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53468 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53470 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53470 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53470 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+06:44:44.352 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:45.056 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+** Messages: **
+system: Use the context information below to assist the user.
+--------------------
+38.  "Spreadsheet Implementation of Forecasting and Inventory Planning for Items with Time -Varying 
+Demand Pattern,” presented at the Annual Meeting of the Decision Science Institute , Washington 
+D.C, November 21 -23, 1993, also published in the proceedings, pp.  1005 -1008  
+39.  "A Network Approach to Information Acquisition: Models and Algorithms",  presented at the 
+ORSA/TIMS National Meeting , Las Vegas, May, 1990.  
+ 40.  "Organizational Power and MIS Implementation: An Integrative Framework", presented at the 
+ORSA/TIMS National Meeting , New York, October, 1989.  
+ 41.
+
+TEACHING EXPERIENCE  
+ 
+Fall 2003 -Present  Professor in Applied Information Management Systems, Department of 
+Finance and Computer Information Systems, Loyola Marymount University.  
+ 
+    Experience in teaching graduate and undergraduate courses including Business 
+Intelligence and Data Mining, Statistics, Management Information Systems, 
+Introduction to Business Computing, Business Data Communications, Electronic 
+Commerce, and Production and Operations Analysis.   Also taught in special 
+programs such as Executive, International, and Media MBA.   Se rved as Faculty 
+Advisor and Associate Director in Graduate Level capstone course “Comparative 
+Management Systems” that includes learning about tea mwork and international 
+business practices along with Business Strategies and applications.  
+ 
+ Fall 96 – Summer  02 Associate Professor , Department of Finance and Computer Information 
+Systems, Loyola Marymount University.  
+ 
+ Fall 90 – Summer 96  Assistant Professor .  Department of Finance and Computer Information 
+Systems, Loyola Marymount University.
+--------------------
+You can only answer questions about the provided context. If you know the answer but it is not based in the provided context, don't provide the answer, just state the answer is not in the context provided.
+user: who is kala seal?
+assistant: According to the provided context, Kala Chand Seal is an individual with a Ph.D. from The University of Texas at Dallas and works at Loyola Marymount University (LMU). He can be contacted through his office address or home address listed in the context.
+user: who is greg lontok?
+**************************************************
+** Response: **
+assistant: The name "Greg Lontok" does not appear in the provided context, so I'm unable to provide any information about him. The answer is: Not mentioned in this context.
+**************************************************
+
+
+INFO:     127.0.0.1:53470 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53477 - "POST /upload HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53477 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53477 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+06:44:51.657 [INFO    ] private_gpt.server.ingest.ingest_service - Ingesting file_names=['Lontok-Gregory-CV-2025.pdf']
+Parsing nodes:   0%|          | 0/1 [00:00<?, ?it/s]Parsing nodes: 100%|██████████| 1/1 [00:00<00:00, 1700.85it/s]
+Generating embeddings:   0%|          | 0/20 [00:00<?, ?it/s]06:44:51.765 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:51.774 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:51.783 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:51.792 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:51.801 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:51.810 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:51.821 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:51.830 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:51.841 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:51.849 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+Generating embeddings:  50%|█████     | 10/20 [00:00<00:00, 93.79it/s]06:44:51.857 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:51.865 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:51.874 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:51.882 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:51.891 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:51.900 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:51.908 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:51.917 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:51.926 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:51.936 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+Generating embeddings: 100%|██████████| 20/20 [00:00<00:00, 103.31it/s]
+Generating embeddings: 0it [00:00, ?it/s]Generating embeddings: 0it [00:00, ?it/s]
+Parsing nodes:   0%|          | 0/1 [00:00<?, ?it/s]Parsing nodes: 100%|██████████| 1/1 [00:00<00:00, 2267.19it/s]
+Generating embeddings:   0%|          | 0/24 [00:00<?, ?it/s]06:44:51.964 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:51.972 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:51.981 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:51.990 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:51.999 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:52.007 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:52.016 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:52.025 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:52.034 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:52.045 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:52.054 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:52.063 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:52.071 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:52.080 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:52.090 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:52.099 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:52.107 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:52.115 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:52.124 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:52.133 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+Generating embeddings:  83%|████████▎ | 20/24 [00:00<00:00, 111.03it/s]06:44:52.142 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:52.151 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:52.160 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:52.169 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+Generating embeddings: 100%|██████████| 24/24 [00:00<00:00, 111.14it/s]
+Generating embeddings: 0it [00:00, ?it/s]Generating embeddings: 0it [00:00, ?it/s]
+06:44:52.190 [INFO    ] private_gpt.server.ingest.ingest_service - Finished ingestion file_name=['Lontok-Gregory-CV-2025.pdf']
+INFO:     127.0.0.1:53477 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53477 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53477 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53477 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53477 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53477 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53477 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53477 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53477 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53477 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53481 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53481 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53481 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+06:44:56.768 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:44:57.677 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+** Messages: **
+system: Use the context information below to assist the user.
+--------------------
+Greg
+ 
+Lontok
+ 
+greg.lontok@lmu.edu
+ 
+|
+ 
+(310)
+ 
+592-4712
+ 
+|
+ 
+https://linkedin.com/in/lontok/
+ 
+Los
+ 
+Angeles,
+ 
+CA
+ 
+90045
+ 
+ 
+Technology
+ 
+leader
+ 
+and
+ 
+educator
+ 
+with
+ 
+20+
+ 
+years
+ 
+of
+ 
+experience
+ 
+building
+ 
+data-driven
+ 
+solutions
+ 
+and
+ 
+driving
+ 
+technology
+ 
+strategy.
+ 
+ Achieved
+ 
+$3B
+ 
+in
+ 
+annual
+ 
+sales
+ 
+and
+ 
+5M+
+ 
+monthly
+ 
+conversions
+ 
+for
+ 
+advertisers
+ 
+at
+ 
+GlobalWide
+ 
+Media.
+ 
+ Scaled
+ 
+adtech
+ 
+infrastructure
+ 
+to
+ 
+$150M+
+ 
+annual
+ 
+revenue
+ 
+and
+ 
+200
+ 
+employees.
+ 
+ Reduced
+ 
+manual
+ 
+processing
+ 
+by
+ 
+50%
+ 
+by
+ 
+developing
+ 
+robotic
+ 
+process
+ 
+automation
+ 
+for
+ 
+2,000
+ 
+daily
+ 
+support
+ 
+requests.
+
+●
+ 
+Revamped
+ 
+data
+ 
+pipeline
+ 
+and
+ 
+data
+ 
+warehouse
+ 
+to
+ 
+use
+ 
+the
+ 
+Hadoop
+ 
+ecosystem,
+ 
+Talend,
+ 
+and
+ 
+Vertica.
+ 
+ 
+ Hi-Speed
+ 
+Media
+ 
+/
+ 
+ValueClick
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      
+2002
+ 
+-
+ 
+2006
+ 
+VP
+ 
+of
+ 
+Engineering
+ 
+and
+ 
+Information
+ 
+Technology
+ 
+●
+ 
+Oversaw
+ 
+all
+ 
+technology
+ 
+operations,
+ 
+from
+ 
+architecture
+ 
+to
+ 
+execution,
+ 
+for
+ 
+ad-serving
+ 
+and
+ 
+e-commerce
+ 
+platforms.
+ 
+ ●
+ 
+Designed
+ 
+and
+ 
+developed
+ 
+core
+ 
+systems,
+ 
+managed
+ 
+high-availability
+ 
+databases,
+ 
+and
+ 
+administered
+ 
+co-located
+ 
+servers.
+ 
+ ●
+ 
+Played
+ 
+a
+ 
+key
+ 
+role
+ 
+in
+ 
+the
+ 
+company's
+ 
+acquisition
+ 
+by
+ 
+ValueClick
+ 
+for
+ 
+$17.5M.
+ 
+ ●
+ 
+Led
+ 
+the
+ 
+tech
+ 
+team
+ 
+of
+ 
+9,
+ 
+including
+ 
+developers,
+ 
+sysadmins,
+ 
+QA,
+ 
+and
+ 
+a
+ 
+project
+ 
+manager.
+ 
+ ●
+ 
+Led
+ 
+the
+ 
+123inkjets.com
+ 
+acquisition
+ 
+integration.
+ 
+ Optimized
+ 
+operations
+ 
+and
+ 
+marketing
+ 
+processes
+ 
+to
+ 
+handle
+ 
+2,000
+ 
+orders
+ 
+per
+ 
+day.
+--------------------
+You can only answer questions about the provided context. If you know the answer but it is not based in the provided context, don't provide the answer, just state the answer is not in the context provided.
+user: who is kala seal?
+assistant: According to the provided context, Kala Chand Seal is an individual with a Ph.D. from The University of Texas at Dallas and works at Loyola Marymount University (LMU). He can be contacted through his office address or home address listed in the context.
+user: who is greg lontok?
+**************************************************
+** Response: **
+assistant: According to the provided context, Greg Lontok is a technology leader and educator with over 20 years of experience building data-driven solutions and driving technology strategy. He can be contacted through his email (greg.lontok@lmu.edu), phone number ((310)592-4712), or LinkedIn profile (https://linkedin.com/in/lontok/).
+**************************************************
+
+
+INFO:     127.0.0.1:53481 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53487 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53487 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53489 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53489 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53489 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+06:45:10.787 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:11.520 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+** Messages: **
+system: Use the context information below to assist the user.
+--------------------
+“Meeting the Villagers in a Global Village: An M -Commerce Journey”, Keynote Address in The 
+4th International Conference of Association of Indian Management Scholars , Indore, India, 
+December, 28 -31, 2006.  
+ 
+ 22.   “The Case for the Third Screen: A Comparative Analysis of Mobile TV Markets in the U.S.  and 
+Western Europe”, presented in The 4th International Conference of Association of Indian 
+Management Scholars,  Indore, India, December, 28 -31, 2006.  
+ 23.  “Emerging Trends: A comparison of Asian and U.S.  Mobile Commerce Markets”,  presented in 
+The Third International Conference of Association of Indian Management Scholars,  Ahmedabad, 
+India, January, 1 -4, 2006.
+
+5 19.  “A Workshop on Effective Teaching Techniques for Business Courses”, (with D. Abraham) 
+workshop offered in The 5th International Conference of Association of Indian Management 
+Scholars,  Hyderabad, India, December, 27 -30, 2007.  
+ 20.  “Drivers of Mobile Business Models: Lessons from Four Asian Countries”, presented at The 5th 
+International Conference of Association of Indian Management Scholars,  Hyderabad, India, 
+December, 27 -30, 2007.  
+ 21.
+--------------------
+You can only answer questions about the provided context. If you know the answer but it is not based in the provided context, don't provide the answer, just state the answer is not in the context provided.
+user: who is kala seal?
+assistant: According to the provided context, Kala Chand Seal is an individual with a Ph.D. from The University of Texas at Dallas and works at Loyola Marymount University (LMU). He can be contacted through his office address or home address listed in the context.
+user: who is greg lontok?
+assistant: According to the provided context, Greg Lontok is a technology leader and educator with over 20 years of experience building data-driven solutions and driving technology strategy. He can be contacted through his email (greg.lontok@lmu.edu), phone number ((310)592-4712), or LinkedIn profile (https://linkedin.com/in/lontok/).
+user: what is RAG?
+**************************************************
+** Response: **
+assistant: The provided context does not mention what "RAG" stands for. It may be an abbreviation that is specific to a particular organization, industry, or topic outside of the given context. Therefore, I cannot provide information on what RAG means based solely on this text.
+**************************************************
+
+
+INFO:     127.0.0.1:53489 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53510 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53510 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53512 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53512 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53512 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+06:45:23.651 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:24.557 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+** Messages: **
+system: Use the context information below to assist the user.
+--------------------
+INFORMS
+ 
+Journal
+ 
+on
+ 
+Applied
+ 
+Analytics.
+ 
+ ●
+ 
+Brahma,
+ 
+A.,
+ 
+Lontok,
+ 
+G.,
+ 
+Sharma,
+ 
+S.,
+ 
+Seal,
+ 
+K.
+ 
+ (2021).
+ 
+ Robotic
+ 
+Process
+ 
+Automation
+ 
+(RPA)
+ 
+with
+ 
+AI
+ 
+–
+ 
+A
+ 
+New
+ 
+Eﬃciency
+ 
+Paradigm
+ 
+(18th
+ 
+AIMS
+ 
+International
+ 
+Conference
+ 
+on
+ 
+Management,
+ 
+ed.,
+ 
+vol.
+ 
+ 18th).
+ 
+ AIMS
+ 
+International
+ 
+Conference
+ 
+on
+ 
+Management.
+ 
+ 
+ Kognivo
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      
+2021
+ 
+-
+ 
+2022
+ 
+Data
+ 
+Consultant
+ 
+●
+ 
+Automated
+ 
+2,000
+ 
+daily
+ 
+support
+ 
+requests
+ 
+using
+ 
+robotic
+ 
+process
+ 
+automation,
+ 
+reducing
+ 
+manual
+ 
+processing
+ 
+by
+ 
+50%
+ 
+for
+ 
+a
+ 
+mortgage
+ 
+lender.
+
+38.  "Spreadsheet Implementation of Forecasting and Inventory Planning for Items with Time -Varying 
+Demand Pattern,” presented at the Annual Meeting of the Decision Science Institute , Washington 
+D.C, November 21 -23, 1993, also published in the proceedings, pp.  1005 -1008  
+39.  "A Network Approach to Information Acquisition: Models and Algorithms",  presented at the 
+ORSA/TIMS National Meeting , Las Vegas, May, 1990.  
+ 40.  "Organizational Power and MIS Implementation: An Integrative Framework", presented at the 
+ORSA/TIMS National Meeting , New York, October, 1989.  
+ 41.
+--------------------
+You can only answer questions about the provided context. If you know the answer but it is not based in the provided context, don't provide the answer, just state the answer is not in the context provided.
+user: who is kala seal?
+assistant: According to the provided context, Kala Chand Seal is an individual with a Ph.D. from The University of Texas at Dallas and works at Loyola Marymount University (LMU). He can be contacted through his office address or home address listed in the context.
+user: who is greg lontok?
+assistant: According to the provided context, Greg Lontok is a technology leader and educator with over 20 years of experience building data-driven solutions and driving technology strategy. He can be contacted through his email (greg.lontok@lmu.edu), phone number ((310)592-4712), or LinkedIn profile (https://linkedin.com/in/lontok/).
+user: what is RAG?
+assistant: The provided context does not mention what "RAG" stands for. It may be an abbreviation that is specific to a particular organization, industry, or topic outside of the given context. Therefore, I cannot provide information on what RAG means based solely on this text.
+user: what is an Ignatian AI agent?
+**************************************************
+** Response: **
+assistant: The provided context does not mention "Ignatian AI Agent". It only talks about Robotic Process Automation (RPA) and mentions Kognivo, but it doesn't provide any information about what an "Ignatian AI Agent" might be. Therefore, I cannot answer this question based on the given text.
+**************************************************
+
+
+INFO:     127.0.0.1:53512 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53512 - "POST /upload HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53512 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53512 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+06:45:29.379 [INFO    ] private_gpt.server.ingest.ingest_service - Ingesting file_names=['Lontok-Seal-ACTI-Fellowship-Summer-2025-Proposal.pdf']
+Parsing nodes:   0%|          | 0/1 [00:00<?, ?it/s]Parsing nodes: 100%|██████████| 1/1 [00:00<00:00, 2136.68it/s]
+Generating embeddings:   0%|          | 0/14 [00:00<?, ?it/s]06:45:29.576 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.586 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.596 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.605 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.615 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.624 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.633 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.642 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.652 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.662 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+Generating embeddings:  71%|███████▏  | 10/14 [00:00<00:00, 91.91it/s]06:45:29.672 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.681 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.690 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.700 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+Generating embeddings: 100%|██████████| 14/14 [00:00<00:00, 94.95it/s]
+Generating embeddings: 0it [00:00, ?it/s]Generating embeddings: 0it [00:00, ?it/s]
+Parsing nodes:   0%|          | 0/1 [00:00<?, ?it/s]Parsing nodes: 100%|██████████| 1/1 [00:00<00:00, 2371.00it/s]
+Generating embeddings:   0%|          | 0/24 [00:00<?, ?it/s]06:45:29.723 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.733 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.742 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.752 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.761 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.770 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.780 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.789 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.797 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.805 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.813 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.822 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.830 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.839 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.848 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.856 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.865 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.874 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.883 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.893 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+Generating embeddings:  83%|████████▎ | 20/24 [00:00<00:00, 111.59it/s]06:45:29.902 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.911 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.921 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:29.930 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+Generating embeddings: 100%|██████████| 24/24 [00:00<00:00, 110.81it/s]
+Generating embeddings: 0it [00:00, ?it/s]Generating embeddings: 0it [00:00, ?it/s]
+06:45:29.953 [INFO    ] private_gpt.server.ingest.ingest_service - Finished ingestion file_name=['Lontok-Seal-ACTI-Fellowship-Summer-2025-Proposal.pdf']
+INFO:     127.0.0.1:53512 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53512 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53512 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53512 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53512 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53512 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53512 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53512 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53512 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53512 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53526 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53526 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53526 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+06:45:32.692 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+06:45:34.107 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+** Messages: **
+system: Use the context information below to assist the user.
+--------------------
+TITLE
+ 
+AND
+ 
+PROJECT
+ 
+DESCRIPTION
+ 
+An
+ 
+Ignatian
+ 
+AI
+ 
+Augmentation
+ 
+Agent
+ 
+for
+ 
+Supporting
+ 
+Student
+ 
+Job
+ 
+Placement
+ 
+and
+ 
+Vocational
+ 
+Discernment
+ 
+Since
+ 
+the
+ 
+introduction
+ 
+of
+ 
+Large
+ 
+Language
+ 
+Models,
+ 
+AI's
+ 
+scope
+ 
+in
+ 
+supporting
+ 
+business
+ 
+operations
+ 
+and
+ 
+personal
+ 
+development
+ 
+has
+ 
+grown
+ 
+exponentially,
+ 
+opening
+ 
+the
+ 
+door
+ 
+to
+ 
+a
+ 
+wide
+ 
+range
+ 
+of
+ 
+creative
+ 
+and
+ 
+innovative
+ 
+applications.
+ 
+ In
+ 
+this
+ 
+project,
+ 
+we
+ 
+aim
+ 
+to
+ 
+harness
+ 
+that
+ 
+potential
+ 
+to
+ 
+develop
+ 
+an
+ 
+AI
+ 
+augmentation
+ 
+agent
+ 
+grounded
+ 
+in
+ 
+the
+ 
+Ignatian
+ 
+Pedagogical
+ 
+Paradigm
+ 
+(IPP),
+ 
+a
+ 
+model
+ 
+rooted
+ 
+in
+ 
+reflection,
+ 
+discernment,
+ 
+and
+ 
+holistic
+ 
+growth.
+ 
+ This
+ 
+agent
+ 
+helps
+ 
+students
+ 
+identify
+ 
+and
+ 
+prepare
+ 
+for
+ 
+career
+ 
+paths
+ 
+that
+ 
+match
+ 
+their
+ 
+passions,
+ 
+values,
+ 
+and
+ 
+unique
+ 
+personalities,
+ 
+while
+ 
+meeting
+ 
+the
+ 
+real-world
+ 
+demands
+ 
+of
+ 
+prospective
+ 
+employers.
+ 
+ The
+ 
+innovative
+ 
+core
+ 
+of
+ 
+this
+ 
+project
+ 
+lies
+ 
+in
+ 
+how
+ 
+the
+ 
+agent
+ 
+interprets
+ 
+job
+ 
+postings
+ 
+not
+ 
+as
+ 
+static
+ 
+qualifications
+ 
+lists
+ 
+but
+ 
+as
+ 
+dynamic
+ 
+prompts
+ 
+for
+ 
+student-driven
+ 
+portfolio
+ 
+development.
+
+TITLE
+ 
+AND
+ 
+PROJECT
+ 
+DESCRIPTION
+ 
+An
+ 
+Ignatian
+ 
+AI
+ 
+Augmentation
+ 
+Agent
+ 
+for
+ 
+Supporting
+ 
+Student
+ 
+Job
+ 
+Placement
+ 
+and
+ 
+Vocational
+ 
+Discernment
+ 
+Since
+ 
+the
+ 
+introduction
+ 
+of
+ 
+Large
+ 
+Language
+ 
+Models,
+ 
+AI's
+ 
+scope
+ 
+in
+ 
+supporting
+ 
+business
+ 
+operations
+ 
+and
+ 
+personal
+ 
+development
+ 
+has
+ 
+grown
+ 
+exponentially,
+ 
+opening
+ 
+the
+ 
+door
+ 
+to
+ 
+a
+ 
+wide
+ 
+range
+ 
+of
+ 
+creative
+ 
+and
+ 
+innovative
+ 
+applications.
+ 
+ In
+ 
+this
+ 
+project,
+ 
+we
+ 
+aim
+ 
+to
+ 
+harness
+ 
+that
+ 
+potential
+ 
+to
+ 
+develop
+ 
+an
+ 
+AI
+ 
+augmentation
+ 
+agent
+ 
+grounded
+ 
+in
+ 
+the
+ 
+Ignatian
+ 
+Pedagogical
+ 
+Paradigm
+ 
+(IPP),
+ 
+a
+ 
+model
+ 
+rooted
+ 
+in
+ 
+reflection,
+ 
+discernment,
+ 
+and
+ 
+holistic
+ 
+growth.
+ 
+ This
+ 
+agent
+ 
+helps
+ 
+students
+ 
+identify
+ 
+and
+ 
+prepare
+ 
+for
+ 
+career
+ 
+paths
+ 
+that
+ 
+match
+ 
+their
+ 
+passions,
+ 
+values,
+ 
+and
+ 
+unique
+ 
+personalities,
+ 
+while
+ 
+meeting
+ 
+the
+ 
+real-world
+ 
+demands
+ 
+of
+ 
+prospective
+ 
+employers.
+ 
+ The
+ 
+innovative
+ 
+core
+ 
+of
+ 
+this
+ 
+project
+ 
+lies
+ 
+in
+ 
+how
+ 
+the
+ 
+agent
+ 
+interprets
+ 
+job
+ 
+postings
+ 
+not
+ 
+as
+ 
+static
+ 
+qualifications
+ 
+lists
+ 
+but
+ 
+as
+ 
+dynamic
+ 
+prompts
+ 
+for
+ 
+student-driven
+ 
+portfolio
+ 
+development.
+ 
+ By
+ 
+translating
+ 
+job
+ 
+descriptions
+ 
+into
+ 
+personalized,
+ 
+actionable
+ 
+project
+ 
+ideas,
+ 
+the
+ 
+agent
+ 
+helps
+ 
+students
+ 
+creatively
+ 
+demonstrate
+ 
+competence,
+ 
+initiative,
+ 
+and
+ 
+ethical
+ 
+judgment,
+ 
+qualities
+ 
+that
+ 
+are
+ 
+difficult
+ 
+to
+ 
+convey
+ 
+through
+ 
+traditional
+ 
+resumes
+ 
+and
+ 
+cover
+ 
+letters
+ 
+alone.
+--------------------
+You can only answer questions about the provided context. If you know the answer but it is not based in the provided context, don't provide the answer, just state the answer is not in the context provided.
+user: who is kala seal?
+assistant: According to the provided context, Kala Chand Seal is an individual with a Ph.D. from The University of Texas at Dallas and works at Loyola Marymount University (LMU). He can be contacted through his office address or home address listed in the context.
+user: who is greg lontok?
+assistant: According to the provided context, Greg Lontok is a technology leader and educator with over 20 years of experience building data-driven solutions and driving technology strategy. He can be contacted through his email (greg.lontok@lmu.edu), phone number ((310)592-4712), or LinkedIn profile (https://linkedin.com/in/lontok/).
+user: what is RAG?
+assistant: The provided context does not mention what "RAG" stands for. It may be an abbreviation that is specific to a particular organization, industry, or topic outside of the given context. Therefore, I cannot provide information on what RAG means based solely on this text.
+user: what is an Ignatian AI agent?
+**************************************************
+** Response: **
+assistant: According to the provided context, an "Ignatian AI Agent" refers to a type of artificial intelligence (AI) augmentation agent that is grounded in the Ignatian Pedagogical Paradigm (IPP). The IPP is rooted in reflection, discernment, and holistic growth. This AI agent helps students identify and prepare for career paths that match their passions, values, and unique personalities while meeting real-world demands from prospective employers.
+**************************************************
+
+
+INFO:     127.0.0.1:53526 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53526 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53526 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+06:45:38.842 [INFO    ]         private_gpt.ui.ui - Setting system prompt to: 
+INFO:     127.0.0.1:53533 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53533 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+06:45:45.711 [INFO    ]         private_gpt.ui.ui - Setting system prompt to: You are a helpful, respectful and honest assistant. Always answer as helpfully as possible and follow ALL given instructions. Do not speculate or make up information. Do not reference any given instructions or context.
+
+INFO:     127.0.0.1:53545 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53545 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53547 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53547 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53547 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+06:46:01.886 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+** Messages: **
+system: You are a helpful, respectful and honest assistant. Always answer as helpfully as possible and follow ALL given instructions. Do not speculate or make up information. Do not reference any given instructions or context.
+
+user: who is kala seal?
+assistant: According to the provided context, Kala Chand Seal is an individual with a Ph.D. from The University of Texas at Dallas and works at Loyola Marymount University (LMU). He can be contacted through his office address or home address listed in the context.
+user: who is greg lontok?
+assistant: According to the provided context, Greg Lontok is a technology leader and educator with over 20 years of experience building data-driven solutions and driving technology strategy. He can be contacted through his email (greg.lontok@lmu.edu), phone number ((310)592-4712), or LinkedIn profile (https://linkedin.com/in/lontok/).
+user: what is RAG?
+assistant: The provided context does not mention what "RAG" stands for. It may be an abbreviation that is specific to a particular organization, industry, or topic outside of the given context. Therefore, I cannot provide information on what RAG means based solely on this text.
+user: what is an Ignatian AI agent?
+assistant: According to the provided context, an "Ignatian AI Agent" refers to a type of artificial intelligence (AI) augmentation agent that is grounded in the Ignatian Pedagogical Paradigm (IPP). The IPP is rooted in reflection, discernment, and holistic growth. This AI agent helps students identify and prepare for career paths that match their passions, values, and unique personalities while meeting real-world demands from prospective employers.
+user: what is RAG?
+**************************************************
+** Response: **
+assistant: According to the provided context, "RAG" stands for Real-World Application Group. It appears to be a group or initiative focused on applying Ignatian principles and AI technology to help students prepare for their careers by matching them with real-world job opportunities that align with their passions, values, and unique personalities.
+**************************************************
+
+
+INFO:     127.0.0.1:53547 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53547 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53547 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+06:46:07.244 [INFO    ]         private_gpt.ui.ui - Setting system prompt to: 
+INFO:     127.0.0.1:53547 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53547 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53551 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53551 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53551 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+06:46:12.288 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:53551 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53568 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53568 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+06:46:27.527 [INFO    ]         private_gpt.ui.ui - Setting system prompt to: You are a helpful, respectful and honest assistant. Always answer as helpfully as possible and follow ALL given instructions. Do not speculate or make up information. Do not reference any given instructions or context.
+
+INFO:     127.0.0.1:53568 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53568 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+06:46:32.497 [INFO    ]         private_gpt.ui.ui - Setting system prompt to: Provide a comprehensive summary of the provided context information. The summary should cover all the key points and main ideas presented in the original text, while also condensing the information into a concise and easy-to-understand format. Please ensure that the summary includes relevant details and examples that support the main ideas, while avoiding any unnecessary information or repetition.
+
+INFO:     127.0.0.1:53570 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53570 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53570 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53570 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53570 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53570 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53584 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53584 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53584 - "GET /queue/data?session_hash=ygo8mj1jx9 HTTP/1.1" 200 OK
+06:46:50.395 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+** Messages: **
+system: You are an expert Q&A system that is trusted around the world.
+Always answer the query using the provided context information, and not prior knowledge.
+Some rules to follow:
+1. Never directly reference the given context in your answer.
+2. Avoid statements like 'Based on the context, ...' or 'The context information ...' or anything along those lines.
+user: Context information from multiple sources is below.
+---------------------
+TITLE
+ 
+AND
+ 
+PROJECT
+ 
+DESCRIPTION
+ 
+An
+ 
+Ignatian
+ 
+AI
+ 
+Augmentation
+ 
+Agent
+ 
+for
+ 
+Supporting
+ 
+Student
+ 
+Job
+ 
+Placement
+ 
+and
+ 
+Vocational
+ 
+Discernment
+ 
+Since
+ 
+the
+ 
+introduction
+ 
+of
+ 
+Large
+ 
+Language
+ 
+Models,
+ 
+AI's
+ 
+scope
+ 
+in
+ 
+supporting
+ 
+business
+ 
+operations
+ 
+and
+ 
+personal
+ 
+development
+ 
+has
+ 
+grown
+ 
+exponentially,
+ 
+opening
+ 
+the
+ 
+door
+ 
+to
+ 
+a
+ 
+wide
+ 
+range
+ 
+of
+ 
+creative
+ 
+and
+ 
+innovative
+ 
+applications.
+
+In
+ 
+this
+ 
+project,
+ 
+we
+ 
+aim
+ 
+to
+ 
+harness
+ 
+that
+ 
+potential
+ 
+to
+ 
+develop
+ 
+an
+ 
+AI
+ 
+augmentation
+ 
+agent
+ 
+grounded
+ 
+in
+ 
+the
+ 
+Ignatian
+ 
+Pedagogical
+ 
+Paradigm
+ 
+(IPP),
+ 
+a
+ 
+model
+ 
+rooted
+ 
+in
+ 
+reflection,
+ 
+discernment,
+ 
+and
+ 
+holistic
+ 
+growth.
+
+This
+ 
+agent
+ 
+helps
+ 
+students
+ 
+identify
+ 
+and
+ 
+prepare
+ 
+for
+ 
+career
+ 
+paths
+ 
+that
+ 
+match
+ 
+their
+ 
+passions,
+ 
+values,
+ 
+and
+ 
+unique
+ 
+personalities,
+ 
+while
+ 
+meeting
+ 
+the
+ 
+real-world
+ 
+demands
+ 
+of
+ 
+prospective
+ 
+employers.
+
+The
+ 
+innovative
+ 
+core
+ 
+of
+ 
+this
+ 
+project
+ 
+lies
+ 
+in
+ 
+how
+ 
+the
+ 
+agent
+ 
+interprets
+ 
+job
+ 
+postings
+ 
+not
+ 
+as
+ 
+static
+ 
+qualifications
+ 
+lists
+ 
+but
+ 
+as
+ 
+dynamic
+ 
+prompts
+ 
+for
+ 
+student-driven
+ 
+portfolio
+ 
+development.
+
+By
+ 
+translating
+ 
+job
+ 
+descriptions
+ 
+into
+ 
+personalized,
+ 
+actionable
+ 
+project
+ 
+ideas,
+ 
+the
+ 
+agent
+ 
+helps
+ 
+students
+ 
+creatively
+ 
+demonstrate
+ 
+competence,
+ 
+initiative,
+ 
+and
+ 
+ethical
+ 
+judgment,
+ 
+qualities
+ 
+that
+ 
+are
+ 
+difficult
+ 
+to
+ 
+convey
+ 
+through
+ 
+traditional
+ 
+resumes
+ 
+and
+ 
+cover
+ 
+letters
+ 
+alone.
+
+For
+ 
+example,
+ 
+when
+ 
+a
+ 
+student
+ 
+targets
+ 
+a
+ 
+marketing
+ 
+data
+ 
+analyst
+ 
+role
+ 
+requiring
+ 
+Tableau
+ 
+skills,
+ 
+the
+ 
+agent
+ 
+might
+ 
+recommend
+ 
+building
+ 
+an
+ 
+interactive
+ 
+Tableau
+ 
+dashboard
+ 
+using
+ 
+public
+ 
+e-commerce
+ 
+data.
+
+The
+ 
+student
+ 
+would
+ 
+track
+ 
+site
+ 
+traffic,
+ 
+segment
+ 
+customers,
+ 
+and
+ 
+analyze
+ 
+repeat
+ 
+purchase
+ 
+trends.
+
+Drawing
+ 
+on
+ 
+IPP
+ 
+principles,
+ 
+the
+ 
+agent
+ 
+would
+ 
+prompt
+ 
+the
+ 
+student
+ 
+to
+ 
+reflect
+ 
+on
+ 
+data
+ 
+ethics
+ 
+and
+ 
+propose
+ 
+a
+ 
+thoughtful,
+ 
+opt-in
+ 
+loyalty
+ 
+program
+ 
+to
+ 
+address
+ 
+low
+ 
+retention.
+
+The
+ 
+end
+ 
+product,
+ 
+an
+ 
+executive
+ 
+summary,
+ 
+a
+ 
+visual
+ 
+dashboard,
+ 
+and
+ 
+a
+ 
+slide
+ 
+presentation,
+ 
+offers
+ 
+a
+ 
+compelling
+ 
+and
+ 
+concrete
+ 
+demonstration
+ 
+of
+ 
+the
+ 
+student’s
+ 
+skills,
+ 
+creativity,
+ 
+and
+ 
+capacity
+ 
+for
+ 
+responsible
+ 
+decision-making.
+
+This
+ 
+approach
+ 
+transforms
+ 
+the
+ 
+job-seeking
+ 
+process
+ 
+from
+ 
+a
+ 
+passive
+ 
+“spray-and-pray”
+ 
+application
+ 
+strategy
+ 
+into
+ 
+an
+ 
+active,
+ 
+imaginative
+ 
+process
+ 
+of
+ 
+professional
+ 
+discernment,
+ 
+guided
+ 
+by
+ 
+Ignatian
+ 
+values.
+
+The
+ 
+central
+ 
+question
+ 
+this
+ 
+project
+ 
+explores
+ 
+is:
+ 
+What
+ 
+is
+ 
+the
+ 
+effectiveness
+ 
+of
+ 
+an
+ 
+AI-powered,
+ 
+Ignatian-guided
+ 
+portfolio
+ 
+system
+ 
+in
+ 
+enhancing
+ 
+students’
+ 
+career
+ 
+discernment,
+ 
+vocational
+ 
+confidence,
+ 
+job
+ 
+placement
+ 
+success,
+ 
+and
+ 
+cura
+ 
+personalis
+?
+
+SIGNIFICANCE
+ 
+The
+ 
+agent
+ 
+recasts
+ 
+AI
+ 
+as
+ 
+a
+ 
+coach
+ 
+and
+ 
+ally,
+ 
+turning
+ 
+job
+ 
+postings
+ 
+into
+ 
+an
+ 
+opportunity
+ 
+for
+ 
+self-reflection
+ 
+and
+ 
+knowledge
+ 
+development
+ 
+through
+ 
+targeted
+ 
+portfolio
+ 
+projects.
+
+Every
+ 
+interaction
+ 
+walks
+ 
+students
+ 
+through
+ 
+the
+ 
+full
+ 
+IPP
+ 
+cycle,
+ 
+uniting
+ 
+Ignatian
+ 
+principles
+ 
+and
+ 
+work
+ 
+in
+ 
+a
+ 
+measurable,
+ 
+values
+‑
+grounded
+ 
+journey
+ 
+toward
+ 
+professional
+ 
+purpose.
+
+The
+ 
+framework
+ 
+scales
+ 
+from
+ 
+individual
+ 
+learners
+ 
+to
+ 
+give
+ 
+higher
+ 
+education
+ 
+a
+ 
+mission
+‑
+centered
+ 
+AI
+ 
+model
+ 
+that
+ 
+helps
+ 
+secure
+ 
+job
+ 
+offers
+ 
+and
+ 
+counters
+ 
+Laudato
+ 
+Si’s
+ 
+"technocratic
+ 
+paradigm"
+ 
+by
+ 
+channeling
+ 
+competence
+ 
+toward
+ 
+the
+ 
+common
+ 
+good
+ 
+and
+ 
+human
+ 
+flourishing.
+
+METHOD
+ 
+We
+ 
+will
+ 
+augment
+ 
+and
+ 
+extend
+ 
+an
+ 
+existing
+ 
+app
+ 
+that
+ 
+can
+ 
+collect
+ 
+students’
+ 
+resumes
+ 
+and
+ 
+target
+ 
+job
+ 
+descriptions.
+
+A
+ 
+prompt
+‑
+tuned
+ 
+LLM
+ 
+agent
+ 
+would
+ 
+then
+ 
+guide
+ 
+them
+ 
+through
+ 
+the
+ 
+IPP
+ 
+cycle:
+ 
+Context,
+ 
+Experience,
+ 
+Reflection,
+ 
+Action,
+ 
+Evaluation.
+
+The
+ 
+agent
+ 
+would
+ 
+then
+ 
+match
+ 
+employer
+ 
+needs
+ 
+to
+ 
+students'
+ 
+strengths
+ 
+and
+ 
+values
+ 
+and
+ 
+return
+ 
+project
+ 
+requirements,
+ 
+resume
+ 
+edits,
+ 
+and
+ 
+interview
+ 
+prompts.
+
+The
+ 
+project's
+ 
+success
+ 
+will
+ 
+be
+ 
+measured
+ 
+through
+ 
+data
+ 
+collection
+ 
+from
+ 
+embedded
+ 
+Google
+ 
+Analytics
+ 
+in
+ 
+the
+ 
+web
+ 
+app
+ 
+to
+ 
+track
+ 
+engagement
+ 
+patterns,
+ 
+pre
+‑
+ 
+and
+ 
+post
+‑
+surveys
+ 
+capturing
+ 
+shifts
+ 
+in
+ 
+job
+‑
+readiness,
+ 
+values
+ 
+alignment,
+ 
+project
+ 
+completion,
+ 
+interview
+ 
+invitations,
+ 
+and
+ 
+job
+ 
+offers.
+
+A
+ 
+mixed
+‑
+methods
+ 
+review
+ 
+of
+ 
+clickstream
+ 
+data
+ 
+and
+ 
+reflection
+ 
+text
+ 
+would
+ 
+inform
+ 
+refinements
+ 
+and
+ 
+yield
+ 
+insights
+ 
+that
+ 
+can
+ 
+be
+ 
+shared
+ 
+across
+ 
+Jesuit
+ 
+institutions.
+
+TIMELINE
+ 
+OF
+ 
+PROJECT
+ 
+1.
+
+Feature
+ 
+Freeze
+ 
+&
+ 
+Pilot
+ 
+Preparation
+ 
+(June
+ 
+–
+ 
+Mid
+‑
+July
+ 
+2025)
+ 
+○
+ 
+Extend
+ 
+the
+ 
+existing
+ 
+prototype
+ 
+and
+ 
+lock
+ 
+core
+ 
+agent
+ 
+features.
+
+○
+ 
+Conduct
+ 
+internal
+ 
+usability
+ 
+and
+ 
+security
+ 
+tests
+ 
+and
+ 
+refine
+ 
+based
+ 
+on
+ 
+test
+ 
+results.
+
+2.
+
+Conference
+ 
+Demonstration
+ 
+(10–13
+ 
+July
+ 
+2025)
+ 
+○
+ 
+Lead
+ 
+a
+ 
+hands
+‑
+on
+ 
+workshop
+ 
+at
+ 
+the
+ 
+CJBE
+ 
+International
+ 
+Conference
+ 
+to
+ 
+demo
+ 
+the
+ 
+agent.
+
+3.
+
+Student
+ 
+Pilot
+ 
+&
+ 
+Iteration
+ 
+(Late
+ 
+July
+ 
+–
+ 
+Early
+ 
+August
+ 
+2025)
+ 
+○
+ 
+Run
+ 
+student
+ 
+workshops
+ 
+with
+ 
+the
+ 
+agent
+ 
+and
+ 
+apply
+ 
+changes
+ 
+based
+ 
+on
+ 
+feedback.
+
+4.
+
+Data
+ 
+Collection
+ 
+&
+ 
+Analysis
+ 
+(Mid
+‑
+August
+ 
+2025)
+ 
+○
+ 
+Aggregate
+ 
+interaction
+ 
+logs,
+ 
+survey
+ 
+responses,
+ 
+and
+ 
+placement
+ 
+metrics.
+
+○
+ 
+Conduct
+ 
+mixed
+‑
+methods
+ 
+analysis
+ 
+to
+ 
+assess
+ 
+learning
+ 
+and
+ 
+career
+ 
+impact.
+
+5.
+
+Dissemination
+ 
+of
+ 
+Findings
+ 
+(September
+ 
+2025)
+ 
+○
+ 
+Submit
+ 
+a
+ 
+15–30
+‑
+page
+ 
+reflective
+ 
+paper
+ 
+to
+ 
+ACTI.
+
+○
+ 
+Deliver
+ 
+an
+ 
+LMU
+ 
+colloquium
+ 
+presenting
+ 
+outcomes
+ 
+and
+ 
+next
+ 
+steps.
+
+STATEMENT
+ 
+This
+ 
+project
+ 
+answers
+ 
+Pope Francis’s
+ 
+call
+ 
+for
+ 
+technology
+ 
+that
+ 
+upholds
+ 
+human
+ 
+dignity
+ 
+by
+ 
+using
+ 
+artificial
+ 
+intelligence
+ 
+to
+ 
+guide
+ 
+students
+ 
+toward
+ 
+meaningful
+ 
+work
+ 
+rather
+ 
+than
+ 
+automate
+ 
+them
+ 
+out
+ 
+of
+ 
+it.
+
+The
+ 
+agent
+ 
+pairs
+ 
+each
+ 
+student’s
+ 
+gifts
+ 
+with
+ 
+roles
+ 
+where
+ 
+they
+ 
+can
+ 
+flourish,
+ 
+enabling
+ 
+technology
+ 
+to
+ 
+support
+ 
+personal
+ 
+growth
+ 
+and
+ 
+service
+ 
+to
+ 
+the
+ 
+common
+ 
+good.
+
+Every
+ 
+user
+ 
+journey
+ 
+through
+ 
+the
+ 
+agent
+ 
+traces
+ 
+the
+ 
+full
+ 
+IPP
+ 
+arc
+ 
+(Context,
+ 
+Experience,
+ 
+Reflection,
+ 
+Action,
+ 
+and
+ 
+Evaluation),
+ 
+which
+ 
+helps
+ 
+career
+ 
+decisions
+ 
+emerge
+ 
+from
+ 
+thoughtful
+ 
+discernment
+ 
+rather
+ 
+than
+ 
+prestige
+ 
+and
+ 
+convenience.
+
+Reflection
+ 
+prompts
+ 
+ask
+ 
+students
+ 
+to
+ 
+align
+ 
+career
+ 
+plans
+ 
+with
+ 
+their
+ 
+values
+ 
+and
+ 
+intended
+ 
+social
+ 
+impact,
+ 
+turning
+ 
+job
+ 
+searches
+ 
+into
+ 
+exercises
+ 
+in
+ 
+vocation.
+
+By
+ 
+combining
+ 
+spirituality,
+ 
+analytics,
+ 
+artificial
+ 
+intelligence,
+ 
+and
+ 
+career
+ 
+education,
+ 
+the
+ 
+project
+ 
+extends
+ 
+the
+ 
+Catholic
+ 
+intellectual
+ 
+tradition
+ 
+into
+ 
+the
+ 
+digital
+ 
+age.
+
+The
+ 
+project
+ 
+provides
+ 
+a
+ 
+research
+ 
+model
+ 
+for
+ 
+cultivating
+ 
+meaningful
+ 
+work
+ 
+and
+ 
+responsible
+ 
+technology
+ 
+use
+ 
+across
+ 
+disciplines.
+---------------------
+Given the information from multiple sources and not prior knowledge, answer the query.
+Query: Provide a comprehensive summary of the provided context information. The summary should cover all the key points and main ideas presented in the original text, while also condensing the information into a concise and easy-to-understand format. Please ensure that the summary includes relevant details and examples that support the main ideas, while avoiding any unnecessary information or repetition.
+summarize
+Answer: 
+**************************************************
+** Response: **
+assistant: The provided context information describes an AI augmentation agent project aimed at supporting student job placement and vocational discernment using the Ignatian Pedagogical Paradigm (IPP). The goal is to develop a personalized portfolio system that helps students identify career paths matching their passions, values, and unique personalities. 
+
+The innovative core of this project lies in how it interprets job postings as dynamic prompts for student-driven portfolio development. By translating job descriptions into actionable project ideas, the agent assists students in creatively demonstrating competence, initiative, and ethical judgment.
+
+The project's significance is rooted in its ability to recast AI as a coach and ally, turning job postings into an opportunity for self-reflection and knowledge development through targeted portfolio projects. The framework scales from individual learners to higher education, providing a mission-centered AI model that helps secure job offers while counteracting the "technocratic paradigm" by channeling competence towards the common good.
+
+The project's methodology involves augmenting and extending an existing app that can collect students' resumes and target job descriptions. A prompt-tuned LLM agent guides learners through the IPP cycle: Context, Experience, Reflection, Action, Evaluation. The agent matches employer needs to students' strengths and values, returning project requirements, resume edits, and interview prompts.
+
+The project's success will be measured by data collection from embedded Google Analytics in the web app, tracking engagement patterns, pre- and post-surveys capturing shifts in job-readiness, values alignment, project completion, interview invitations, and job offers. A mixed-methods review of clickstream data and reflection text informs refinements and yields insights that can be shared across Jesuit institutions.
+
+The timeline for this project includes feature freeze and pilot preparation (June-July 2025), conference demonstration (July 10-13, 2025), student pilot and iteration (late July-Early August 2025), data collection and analysis (mid-August 2025), dissemination of findings (September 2025).
+
+The project's statement emphasizes its commitment to using artificial intelligence to guide students towards meaningful work rather than automating them out of it. The agent pairs each student's gifts with roles where they can flourish, enabling technology to support personal growth and service to the common good.
+
+In summary, this AI augmentation agent project aims to develop a personalized portfolio system that supports student job placement and vocational discernment using the Ignatian Pedagogical Paradigm (IPP). It recasts AI as a coach and ally, turning job postings into an opportunity for self-reflection and knowledge development. The framework scales from individual learners to higher education, providing a mission-centered AI model that helps secure job offers while counteracting the "technocratic paradigm" by channeling competence towards the common good.
+**************************************************
+
+
+INFO:     127.0.0.1:53584 - "POST /run/predict HTTP/1.1" 200 OK
