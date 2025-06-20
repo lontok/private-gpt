@@ -72,22 +72,32 @@ brew services start ollama
 ollama --version
 ```
 
-### Step 5: Clone PrivateGPT Repository (1 minute)
+### Step 5: Fork the Repository (30 seconds)
+
+1. Go to https://github.com/zylon-ai/private-gpt
+2. Click the "Fork" button in the top-right corner
+3. Select your GitHub account as the destination
+4. Wait for the fork to complete
+
+### Step 6: Clone Your Fork (1 minute)
 
 ```bash
-# Clone PrivateGPT
-git clone https://github.com/zylon-ai/private-gpt.git
+# Clone your fork (replace YOUR_USERNAME with your GitHub username)
+git clone https://github.com/YOUR_USERNAME/private-gpt.git
 cd private-gpt
+
+# Optional: Add upstream remote for future updates
+git remote add upstream https://github.com/zylon-ai/private-gpt.git
 ```
 
-### Step 6: Install PrivateGPT Dependencies (3 minutes)
+### Step 7: Install PrivateGPT Dependencies (3 minutes)
 
 ```bash
 # Install with Ollama support and UI
 poetry install --extras "ui llms-ollama embeddings-ollama vector-stores-qdrant"
 ```
 
-### Step 7: Download Llama 3 Model (5-10 minutes)
+### Step 8: Download Llama 3 Model (5-10 minutes)
 
 ```bash
 # Pull the Llama 3 model (4.7GB download)
@@ -97,21 +107,21 @@ ollama pull llama3
 ollama list
 ```
 
-### Step 8: Configure for Llama 3 (30 seconds)
+### Step 9: Configure for Llama 3 (30 seconds)
 
 ```bash
 # Update the Ollama settings to use llama3
 sed -i '' 's/llm_model: llama3.1/llm_model: llama3/' settings-ollama.yaml
 ```
 
-### Step 9: Start PrivateGPT (1 minute)
+### Step 10: Start PrivateGPT (1 minute)
 
 ```bash
 # Start the application
 PGPT_PROFILES=ollama make run
 ```
 
-### Step 10: Access the UI
+### Step 11: Access the UI
 
 Open your browser and go to: **http://localhost:8001**
 
@@ -120,7 +130,7 @@ Open your browser and go to: **http://localhost:8001**
 ### ⏱️ Total Time: 15-20 minutes
 - Prerequisites check: 1 minute
 - Software installation (Steps 1-4): 6 minutes
-- PrivateGPT setup (Steps 5-9): 10-15 minutes
+- PrivateGPT setup (Steps 5-10): 10-15 minutes
 - Most time is spent downloading the 4.7GB Llama 3 model
 
 ## 🔧 Troubleshooting
