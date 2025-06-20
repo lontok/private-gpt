@@ -60,6 +60,7 @@ This document provides three levels of detail about PrivateGPT: Low (Executive S
 - 💬 **Conversational Interface** - Context-aware chat
 - 🔌 **Extensible** - Plugin architecture for components
 - 📊 **Production Ready** - REST API, monitoring, scaling
+- 🗑️ **Privacy by Design** - Original files not stored after processing
 
 ### Installation & Setup
 
@@ -122,7 +123,7 @@ private_gpt/
 
 2. **Document Ingestion:**
    ```
-   File Upload → Parser → Chunking → Embedding → Vector Store → Index Update
+   File Upload → Temporary File → Parser → Chunking → Embedding → Vector Store → Index Update → Delete Original
    ```
 
 3. **RAG Pipeline:**
@@ -139,6 +140,9 @@ server:
   env_name: ${APP_ENV:production}
   port: ${PORT:8001}
 
+data:
+  local_data_folder: local_data/private_gpt
+
 llm:
   mode: ollama
   max_new_tokens: 512
@@ -150,6 +154,9 @@ embedding:
   
 vectorstore:
   database: qdrant
+
+qdrant:
+  path: local_data/private_gpt/qdrant
 ```
 
 #### Environment Variables
@@ -292,12 +299,47 @@ data: {"choices": [{"delta": {"content": "The answer"}}]}
    - Embedding cache reduces redundant computation
    - Clear cache: `make wipe`
 
+### Data Storage
+
+#### File Storage Architecture
+
+1. **Raw Files (NOT Stored):**
+   - Uploaded files processed in memory/temp files
+   - Immediately deleted after text extraction
+   - Privacy by design - no originals kept
+
+2. **Vector Data:**
+   - **Location:** `local_data/private_gpt/qdrant/`
+   - **Storage:** SQLite database with embeddings
+   - **Purpose:** Semantic search capabilities
+
+3. **Document Data:**
+   - **Location:** `local_data/private_gpt/`
+   - **Files:**
+     - `docstore.json` - Text chunks and metadata
+     - `index_store.json` - Index information
+     - `graph_store.json` - Document relationships
+   - **Content:** Processed text, filenames, page numbers
+
+4. **Storage Management:**
+   ```bash
+   # Clear all data
+   make wipe
+   
+   # Backup data
+   cp -r local_data/private_gpt /backup/location
+   
+   # Check storage size
+   du -sh local_data/private_gpt
+   ```
+
 ### Security Model
 
 1. **Data Privacy:**
    - No external API calls (in local mode)
    - All data stored locally
    - No telemetry or tracking
+   - Original documents never persisted
 
 2. **Access Control:**
    - Basic auth via middleware

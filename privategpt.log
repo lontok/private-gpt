@@ -3469,3 +3469,995 @@ In summary, this AI augmentation agent project aims to develop a personalized po
 
 
 INFO:     127.0.0.1:53584 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54883 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54883 - "GET /assets/index-D5ROCp7B.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54885 - "GET /assets/index-DuXXhepF.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54885 - "GET /assets/svelte/svelte.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54885 - "GET /assets/Index-D21IHG0c.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54883 - "GET /assets/Index-BEyjvDG_.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54885 - "GET /assets/index-DuXXhepF.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54883 - "GET /theme.css?v=100fecf9b6f943e2a9d4059c81be191f3247795d7babff175b481229879e5c02 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54885 - "GET /heartbeat/7ui9hh1zfqw HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54897 - "GET /assets/Button-CTZL5Nos.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54899 - "GET /assets/Blocks-yLdzXwzS.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54883 - "GET /assets/Button-uOcat6Z0.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54901 - "GET /assets/Blocks-Dw_9NR1K.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54901 - "GET /assets/Index-CwNLzWTz.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54883 - "GET /assets/Index-C43SQM_O.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54897 - "GET /assets/Example-BoMLuz1A.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54899 - "GET /assets/BlockLabel-BXXlQleC.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54901 - "GET /assets/Index-BicZ6NTU.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54883 - "GET /assets/Index-CptIZeFZ.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54897 - "GET /assets/Example-D7K5RtQ2.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54899 - "GET /assets/Example-Cj3ii62O.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54901 - "GET /assets/Index-BSqct-uf.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54883 - "GET /assets/Textbox-D8IAzrZj.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54901 - "GET /assets/Example-BOThR97Y.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54899 - "GET /assets/ModifyUpload-C849vsWf.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54897 - "GET /assets/Index-DYDmCduo.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54883 - "GET /assets/Example-CX34aPix.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54897 - "GET /assets/Index-Xv8ZQETB.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54899 - "GET /assets/Index-BhDD_Y03.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54901 - "GET /assets/Index-B0JJ6p9c.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54901 - "GET /assets/Index-C-7D3Y3j.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54883 - "GET /assets/ImagePreview-DlqNSi_R.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54901 - "GET /assets/Index-C5NYahSl.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54897 - "GET /assets/Image-B8dFOee4.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54899 - "GET /assets/Index-D9RVvV4H.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54883 - "GET /assets/Code-DGNrTu_I.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54897 - "GET /assets/Index-3Ud1cpPD.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54901 - "GET /assets/Index-QFLfeHqR.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54883 - "GET /assets/BlockTitle-COFLSASJ.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54899 - "GET /assets/Index-DjlyOtKO.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54897 - "GET /assets/Info-CMIMfBX8.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54901 - "GET /assets/Textbox-CF9-08gf.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54883 - "GET /assets/Copy-B6RcHnoK.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54899 - "GET /assets/Example-C7XUkkid.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54897 - "GET /assets/Check-CZUQOzJl.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54901 - "GET /assets/Index-q5DoCKkE.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54899 - "GET /assets/Index-qZ00DhtO.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54883 - "GET /assets/Index-gv3yLxlE.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54897 - "GET /assets/index-CnqicUFC.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54901 - "GET /assets/Upload-46YxStuW.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54899 - "GET /assets/Index.svelte_svelte_type_style_lang-D199jKmZ.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54897 - "GET /assets/Example-BT2jlY4j.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54883 - "GET /assets/prism-python-Bw3EYPE-.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54897 - "GET /assets/dsv-DB8NKgIY.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54901 - "GET /assets/Example.svelte_svelte_type_style_lang-qahm4PWk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54899 - "GET /assets/Index-DwSO5GE1.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54883 - "GET /assets/Index-DDCF2BFd.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54899 - "GET /assets/file-url-BIHPd7vS.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54897 - "GET /assets/ShareButton-OlciWAJu.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54883 - "GET /assets/Image-DG8jX6JY.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54899 - "GET /assets/DownloadLink-BgAM71ly.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54901 - "GET /assets/Index-DDqzdfNS.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54897 - "GET /assets/Index-CS2xVf8J.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54883 - "GET /assets/Index-BpBoLkq9.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54899 - "GET /assets/Index-uRgjJb4U.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54899 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54899 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54899 - "GET /queue/data?session_hash=7ui9hh1zfqw HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54899 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54899 - "GET /queue/data?session_hash=7ui9hh1zfqw HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54899 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54899 - "GET /queue/data?session_hash=7ui9hh1zfqw HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54899 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54899 - "GET /queue/data?session_hash=7ui9hh1zfqw HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55037 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55037 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55039 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55039 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55039 - "GET /queue/data?session_hash=7ui9hh1zfqw HTTP/1.1" 200 OK
+07:12:03.173 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+07:12:07.084 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:55037 - "GET /file%3D/private/var/folders/ln/dglppgj571x0sq2bpzhwn8l00000gn/T/gradio/b071f118965daa0645e9c89e012175fbd95dca8d24774102a3dc056d8fcc312f/avatar-bot.ico HTTP/1.1" 200 OK
+** Messages: **
+system: Use the context information below to assist the user.
+--------------------
+TITLE
+ 
+AND
+ 
+PROJECT
+ 
+DESCRIPTION
+ 
+An
+ 
+Ignatian
+ 
+AI
+ 
+Augmentation
+ 
+Agent
+ 
+for
+ 
+Supporting
+ 
+Student
+ 
+Job
+ 
+Placement
+ 
+and
+ 
+Vocational
+ 
+Discernment
+ 
+Since
+ 
+the
+ 
+introduction
+ 
+of
+ 
+Large
+ 
+Language
+ 
+Models,
+ 
+AI's
+ 
+scope
+ 
+in
+ 
+supporting
+ 
+business
+ 
+operations
+ 
+and
+ 
+personal
+ 
+development
+ 
+has
+ 
+grown
+ 
+exponentially,
+ 
+opening
+ 
+the
+ 
+door
+ 
+to
+ 
+a
+ 
+wide
+ 
+range
+ 
+of
+ 
+creative
+ 
+and
+ 
+innovative
+ 
+applications.
+ 
+ In
+ 
+this
+ 
+project,
+ 
+we
+ 
+aim
+ 
+to
+ 
+harness
+ 
+that
+ 
+potential
+ 
+to
+ 
+develop
+ 
+an
+ 
+AI
+ 
+augmentation
+ 
+agent
+ 
+grounded
+ 
+in
+ 
+the
+ 
+Ignatian
+ 
+Pedagogical
+ 
+Paradigm
+ 
+(IPP),
+ 
+a
+ 
+model
+ 
+rooted
+ 
+in
+ 
+reflection,
+ 
+discernment,
+ 
+and
+ 
+holistic
+ 
+growth.
+ 
+ This
+ 
+agent
+ 
+helps
+ 
+students
+ 
+identify
+ 
+and
+ 
+prepare
+ 
+for
+ 
+career
+ 
+paths
+ 
+that
+ 
+match
+ 
+their
+ 
+passions,
+ 
+values,
+ 
+and
+ 
+unique
+ 
+personalities,
+ 
+while
+ 
+meeting
+ 
+the
+ 
+real-world
+ 
+demands
+ 
+of
+ 
+prospective
+ 
+employers.
+ 
+ The
+ 
+innovative
+ 
+core
+ 
+of
+ 
+this
+ 
+project
+ 
+lies
+ 
+in
+ 
+how
+ 
+the
+ 
+agent
+ 
+interprets
+ 
+job
+ 
+postings
+ 
+not
+ 
+as
+ 
+static
+ 
+qualifications
+ 
+lists
+ 
+but
+ 
+as
+ 
+dynamic
+ 
+prompts
+ 
+for
+ 
+student-driven
+ 
+portfolio
+ 
+development.
+
+Feature
+ 
+Freeze
+ 
+&
+ 
+Pilot
+ 
+Preparation
+ 
+(June
+ 
+–
+ 
+Mid
+‑
+July
+ 
+2025)
+ 
+○
+ 
+Extend
+ 
+the
+ 
+existing
+ 
+prototype
+ 
+and
+ 
+lock
+ 
+core
+ 
+agent
+ 
+features.
+ 
+ ○
+ 
+Conduct
+ 
+internal
+ 
+usability
+ 
+and
+ 
+security
+ 
+tests
+ 
+and
+ 
+refine
+ 
+based
+ 
+on
+ 
+test
+ 
+results.
+ 
+ 2.
+ 
+ Conference
+ 
+Demonstration
+ 
+(10–13
+ 
+July
+ 
+2025)
+ 
+○
+ 
+Lead
+ 
+a
+ 
+hands
+‑
+on
+ 
+workshop
+ 
+at
+ 
+the
+ 
+CJBE
+ 
+International
+ 
+Conference
+ 
+to
+ 
+demo
+ 
+the
+ 
+agent.
+ 
+ 3.
+ 
+ Student
+ 
+Pilot
+ 
+&
+ 
+Iteration
+ 
+(Late
+ 
+July
+ 
+–
+ 
+Early
+ 
+August
+ 
+2025)
+ 
+○
+ 
+Run
+ 
+student
+ 
+workshops
+ 
+with
+ 
+the
+ 
+agent
+ 
+and
+ 
+apply
+ 
+changes
+ 
+based
+ 
+on
+ 
+feedback.
+ 
+ 4.
+--------------------
+Provide a comprehensive summary of the provided context information. The summary should cover all the key points and main ideas presented in the original text, while also condensing the information into a concise and easy-to-understand format. Please ensure that the summary includes relevant details and examples that support the main ideas, while avoiding any unnecessary information or repetition.
+user: who is kala?
+**************************************************
+** Response: **
+assistant: There is no mention of "Kala" in the provided context information. The text appears to be about a project called "An Ignatian AI Augmentation Agent for Supporting Student Job Placement and Vocational Discernment". If you're looking for more information, please let me know!
+**************************************************
+
+
+INFO:     127.0.0.1:55039 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55091 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55091 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55093 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55093 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55093 - "GET /queue/data?session_hash=7ui9hh1zfqw HTTP/1.1" 200 OK
+07:12:23.713 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+07:12:24.651 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+** Messages: **
+system: Use the context information below to assist the user.
+--------------------
+The
+ 
+project's
+ 
+success
+ 
+will
+ 
+be
+ 
+measured
+ 
+through
+ 
+data
+ 
+collection
+ 
+from
+ 
+embedded
+ 
+Google
+ 
+Analytics
+ 
+in
+ 
+the
+ 
+web
+ 
+app
+ 
+to
+ 
+track
+ 
+engagement
+ 
+patterns,
+ 
+pre
+‑
+ 
+and
+ 
+post
+‑
+surveys
+ 
+capturing
+ 
+shifts
+ 
+in
+ 
+job
+‑
+readiness,
+ 
+values
+ 
+alignment,
+ 
+project
+ 
+completion,
+ 
+interview
+ 
+invitations,
+ 
+and
+ 
+job
+ 
+offers.
+ 
+ A
+ 
+mixed
+‑
+methods
+ 
+review
+ 
+of
+ 
+clickstream
+ 
+data
+ 
+and
+ 
+reflection
+ 
+text
+ 
+would
+ 
+inform
+ 
+refinements
+ 
+and
+ 
+yield
+ 
+insights
+ 
+that
+ 
+can
+ 
+be
+ 
+shared
+ 
+across
+ 
+Jesuit
+ 
+institutions.
+ 
+ TIMELINE
+ 
+OF
+ 
+PROJECT
+ 
+1.
+ 
+ Feature
+ 
+Freeze
+ 
+&
+ 
+Pilot
+ 
+Preparation
+ 
+(June
+ 
+–
+ 
+Mid
+‑
+July
+ 
+2025)
+ 
+○
+ 
+Extend
+ 
+the
+ 
+existing
+ 
+prototype
+ 
+and
+ 
+lock
+ 
+core
+ 
+agent
+ 
+features.
+ 
+ ○
+ 
+Conduct
+ 
+internal
+ 
+usability
+ 
+and
+ 
+security
+ 
+tests
+ 
+and
+ 
+refine
+ 
+based
+ 
+on
+ 
+test
+ 
+results.
+ 
+ 2.
+ 
+ Conference
+ 
+Demonstration
+ 
+(10–13
+ 
+July
+ 
+2025)
+ 
+○
+ 
+Lead
+ 
+a
+ 
+hands
+‑
+on
+ 
+workshop
+ 
+at
+ 
+the
+ 
+CJBE
+ 
+International
+ 
+Conference
+ 
+to
+ 
+demo
+ 
+the
+ 
+agent.
+
+Feature
+ 
+Freeze
+ 
+&
+ 
+Pilot
+ 
+Preparation
+ 
+(June
+ 
+–
+ 
+Mid
+‑
+July
+ 
+2025)
+ 
+○
+ 
+Extend
+ 
+the
+ 
+existing
+ 
+prototype
+ 
+and
+ 
+lock
+ 
+core
+ 
+agent
+ 
+features.
+ 
+ ○
+ 
+Conduct
+ 
+internal
+ 
+usability
+ 
+and
+ 
+security
+ 
+tests
+ 
+and
+ 
+refine
+ 
+based
+ 
+on
+ 
+test
+ 
+results.
+ 
+ 2.
+ 
+ Conference
+ 
+Demonstration
+ 
+(10–13
+ 
+July
+ 
+2025)
+ 
+○
+ 
+Lead
+ 
+a
+ 
+hands
+‑
+on
+ 
+workshop
+ 
+at
+ 
+the
+ 
+CJBE
+ 
+International
+ 
+Conference
+ 
+to
+ 
+demo
+ 
+the
+ 
+agent.
+ 
+ 3.
+ 
+ Student
+ 
+Pilot
+ 
+&
+ 
+Iteration
+ 
+(Late
+ 
+July
+ 
+–
+ 
+Early
+ 
+August
+ 
+2025)
+ 
+○
+ 
+Run
+ 
+student
+ 
+workshops
+ 
+with
+ 
+the
+ 
+agent
+ 
+and
+ 
+apply
+ 
+changes
+ 
+based
+ 
+on
+ 
+feedback.
+ 
+ 4.
+--------------------
+Provide a comprehensive summary of the provided context information. The summary should cover all the key points and main ideas presented in the original text, while also condensing the information into a concise and easy-to-understand format. Please ensure that the summary includes relevant details and examples that support the main ideas, while avoiding any unnecessary information or repetition.
+user: who is kala?
+assistant: There is no mention of "Kala" in the provided context information. The text appears to be about a project called "An Ignatian AI Augmentation Agent for Supporting Student Job Placement and Vocational Discernment". If you're looking for more information, please let me know!
+user: who is kala seal?
+**************************************************
+** Response: **
+assistant: I'm not familiar with Kala Seal. Could you please provide more context or information about who Kala Seal is or what they are known for? I'd be happy to try and help if I can!
+**************************************************
+
+
+INFO:     127.0.0.1:55093 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55093 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55093 - "GET /queue/data?session_hash=7ui9hh1zfqw HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55093 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55093 - "GET /queue/data?session_hash=7ui9hh1zfqw HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55093 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55093 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55115 - "POST /run/predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55115 - "POST /queue/join HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55115 - "GET /queue/data?session_hash=7ui9hh1zfqw HTTP/1.1" 200 OK
+07:12:34.244 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/embeddings "HTTP/1.1 200 OK"
+07:12:34.942 [INFO    ]                     httpx - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+** Messages: **
+system: Use the context information below to assist the user.
+--------------------
+1 KALA CHAND SEAL  
+ 
+ 
+OFFICE ADDRESS        HOME ADDRESS  
+Hilton 223         6207 West 78th Street  
+Loyola Marymount University      Los Angeles, CA: 90045  
+One LMU Drive        Ph: (310) 645 0214  
+Los Angeles, CA: 90045.  
+ Ph : (310) 338 2742  
+    E-mail: k ala.seal@lmu.edu  
+ 
+I. EDUCATION  
+ 
+ Ph.D.    The University of Texas at Dallas  
+   August, 1990.  
+    Major: Management Science and Management Information Systems (MIS)  
+ M.S.    The University of Texas at Dallas  
+ August, 1989.
+
+5 19.  “A Workshop on Effective Teaching Techniques for Business Courses”, (with D. Abraham) 
+workshop offered in The 5th International Conference of Association of Indian Management 
+Scholars,  Hyderabad, India, December, 27 -30, 2007.  
+ 20.  “Drivers of Mobile Business Models: Lessons from Four Asian Countries”, presented at The 5th 
+International Conference of Association of Indian Management Scholars,  Hyderabad, India, 
+December, 27 -30, 2007.
+--------------------
+Provide a comprehensive summary of the provided context information. The summary should cover all the key points and main ideas presented in the original text, while also condensing the information into a concise and easy-to-understand format. Please ensure that the summary includes relevant details and examples that support the main ideas, while avoiding any unnecessary information or repetition.
+user: who is kala?
+assistant: There is no mention of "Kala" in the provided context information. The text appears to be about a project called "An Ignatian AI Augmentation Agent for Supporting Student Job Placement and Vocational Discernment". If you're looking for more information, please let me know!
+user: who is kala seal?
+**************************************************
+** Response: **
+assistant: According to the provided context information, Kala Chand Seal (also referred to as "Kala") appears to be an individual with a background in education and academia. Specifically:
+
+* He holds a Ph.D. from The University of Texas at Dallas, majoring in Management Science and Management Information Systems (MIS), earned in August 1990.
+* He also has an M.S. degree from the same university, earned in August 1989.
+
+Additionally, Kala Seal is associated with Loyola Marymount University, where he holds a position and can be contacted via email at kala.seal@lmu.edu or phone numbers (310) 645-0214 and (310) 338-2742.
+**************************************************
+
+
+INFO:     127.0.0.1:55115 - "POST /run/predict HTTP/1.1" 200 OK
